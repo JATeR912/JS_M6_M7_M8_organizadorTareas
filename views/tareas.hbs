@@ -12,8 +12,12 @@
     {{> nav}}
 
         <div class="container">
-            <h1 class="my-4">{{tituloPrincipal}}</h1>
-            <p>{{descripcion}}</p>
+            <h1 class="my-4">Mis tareas</h1>
+            <ul>
+                {{#each lista}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
         </div>
 
     {{> footer}}
