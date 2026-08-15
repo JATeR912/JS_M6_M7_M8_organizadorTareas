@@ -29,9 +29,14 @@ function getStatus(req, res) {
   });
 };
 
+function getNotFound(req, res) {
+  res.status(404).render('404', { nombreProyecto: 'disper', autor: 'JATeR' });
+}
+
 module.exports = {
     getHome, 
     getTareas, 
-    getStatus
+    getStatus,
+    getNotFound
 };
 
