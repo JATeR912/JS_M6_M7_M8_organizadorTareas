@@ -119,5 +119,5 @@ El endpoint /status retorna una respuesta en formato JSON con la siguiente estru
 
 <img width="616" height="322" alt="image" src="https://github.com/user-attachments/assets/3fa586e5-e377-45a7-b109-17fa0168e8c1" />
 
-**Para consultar la teoría detallada y justificaciones técnicas del módulo, revisa el archivo [doc/justificacionProyecto.md](doc/justificacionProyecto.md).**
+**Para consultar la teoría detallada y justificaciones técnicas del módulo, revisa el archivo [doc/justificacionProyecto.md](./doc/justificacionProyecto.md).**
 
