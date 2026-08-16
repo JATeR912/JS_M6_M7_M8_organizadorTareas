@@ -102,8 +102,6 @@ PORT=3000
 Una vez ejecutado el comando de inicio, accede desde tu navegador a:
 http://localhost:3000/ (o utilizando el puerto configurado en tu archivo .env).
 
-
-
 ## Endpoints y Rutas Disponibles
 
 | Método | Ruta | Descripción |
@@ -113,8 +111,13 @@ http://localhost:3000/ (o utilizando el puerto configurado en tu archivo .env).
 | GET | /status | Endpoint API que retorna el estado del servidor en formato JSON. |
 | ALL | * | Captura de rutas no encontradas (Manejo de error HTTP 404). |
 
+<img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/3b848dc2-1587-425d-a8f7-b57a2b9ee931" />
+
+
 ### Respuesta del Endpoint /status
 El endpoint /status retorna una respuesta en formato JSON con la siguiente estructura:
+
+<img width="616" height="322" alt="image" src="https://github.com/user-attachments/assets/3fa586e5-e377-45a7-b109-17fa0168e8c1" />
 
 **Para consultar la teoría detallada y justificaciones técnicas del módulo, revisa el archivo [doc/justificacionProyecto.md](doc/justificacionProyecto.md).**
 
