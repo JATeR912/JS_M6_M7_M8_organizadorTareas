@@ -29,7 +29,7 @@ Aunque Node.js incluye el módulo nativo `http` para la creación de servidores,
 
 El ciclo de vida de una petición HTTP en la aplicación sigue la siguiente secuencia:
 
- 
+<img width="995" height="283" alt="image" src="https://github.com/user-attachments/assets/c64d5577-2aba-4478-878e-b795f405b6a9" />
 
 ---
 
